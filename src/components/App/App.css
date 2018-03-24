@@ -1,0 +1,47 @@
+.App-container {
+  width: 90vw;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-publisher-container {
+  height: 225px;
+  width: 300px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+.App-publisher-container > div {
+  height: 100%;
+  width: 100%;
+}
+
+.OTPublisherContainer {
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.App-streams-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.App-streams-container .OTSubscriberContainer {
+  margin: 0 5px;
+}
+
+.App-subscribers-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.App-subscribers-container .OTSubscriberContainer {
+  margin: 0 5px;
+}
