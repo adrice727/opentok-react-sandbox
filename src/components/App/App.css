@@ -7,6 +7,15 @@
   align-items: center;
 }
 
+.App-layout-icon {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .App-publisher-container {
   height: 225px;
   width: 300px;
